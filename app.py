@@ -29,7 +29,7 @@ if not NEO4J_URI or not NEO4J_USERNAME or not NEO4J_PASSWORD or not NEO4J_DATABA
 neo4j_driver = neo4j.GraphDatabase.driver(NEO4J_URI,
                                           auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
 
-openai.api_base = "https://api.nlp.dev.uptimize.merckgroup.com"
+openai.api_base = ""
 openai.api_type = "azure"
 openai.api_version = "2024-10-21"
 #httpx_client = httpx.Client(http2=True, verify=False)
